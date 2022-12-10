@@ -7,6 +7,14 @@ public final class Solution1480 {
         Integer[] arr = new Integer[]{1, 2, 3, 4};
         Utils.printArray(arr, false);
         Utils.printArray(new Solution1480().runningSum(arr), false);
+
+        arr = new Integer[]{1, 1, 1, 1, 1};
+        Utils.printArray(arr, false);
+        Utils.printArray(new Solution1480().runningSum(arr), false);
+
+        arr = new Integer[]{3, 1, 2, 10, 1};
+        Utils.printArray(arr, false);
+        Utils.printArray(new Solution1480().runningSum(arr), false);
     }
 
     public Integer[] runningSum(Integer[] nums) {
