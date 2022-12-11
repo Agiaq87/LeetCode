@@ -5,6 +5,8 @@ import java.util.logging.*;
 public final class Utils {
     static final Logger log = Logger.getLogger("[MyExercise - JAVA]");
 
+    private Utils() {}
+
     public static <T> void printArray(T[] array, boolean useStdErr) {
         final StringBuilder sBuilder = new StringBuilder();
         
